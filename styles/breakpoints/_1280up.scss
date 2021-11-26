@@ -1,0 +1,106 @@
+.main {
+    &__text {
+        width: 55%;
+    }
+
+    &__anywhere {
+
+        & .text {
+            left: 40px;
+
+            & .sub-text {
+
+                & h2 {
+                    font-size: 70px;
+                }
+                & .tx03 {
+                    width: 70%;
+                    font-size: 30px;
+                    line-height: 50px;
+                }
+            }
+        }
+
+        & .img {
+            height: 600px;
+            width: 90%;
+        }
+
+    }
+
+    &__business {
+        margin-top: 100px;
+
+        & .wrapper {
+            justify-content: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        & h2 {
+            font-size: 75px;
+        }
+        & .content {
+            justify-content: center;
+            height: 250px;
+
+            & .content2 {
+                width: 90%;
+            }
+
+            & h3 {
+                font-size: 45px;
+            }
+            & p {
+                font-size: 20px;
+                line-height: 35px;
+            }
+        }
+
+        & .plan {
+            height: 350px;
+
+            & .text {
+                width: 70%;
+                margin-left: 30px;
+            }
+
+            & h3 {
+                font-size: 45px;
+            }
+
+            & a {
+                width: 40%;
+            }
+        }
+    }
+
+    &__join {
+
+        & h2 {
+            font-size: 75px;
+        }
+        & .text {
+            & h3 {
+                font-size: 35px;
+            }
+
+            & p {
+              font-size: 20px;  
+              line-height: 38px;
+            }
+        }
+    }
+
+    &__contact {
+
+        & h2 {
+            font-size: 75px;
+        }
+        & .text {
+            & p {
+                font-size: 20px;
+            }
+        }
+    }
+}

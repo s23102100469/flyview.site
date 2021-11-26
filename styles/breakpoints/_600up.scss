@@ -1,0 +1,107 @@
+.main {
+    &__text {
+        width: 80%;
+        & .title {
+            font-size: 50px;
+        }
+    
+        & .sub-text {
+    
+            & h2 {
+                font-size: 25px;
+            }
+    
+            & p {
+                font-size: 16px;
+            }
+        }
+    }
+
+    &__anywhere {
+        & .text {
+            & .sub-text {
+                & h2 {
+                    font-size: 50px;
+                }
+
+                & .tx02 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    &__business {
+        margin-top: -70px;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        & h2 {
+            & span {
+                font-size: 60px;
+            }
+        }
+
+        & .plan {
+            height: 300px;
+            width: 60%;
+            margin: 0 0 0 -20px;
+            display: flex;
+            align-items: center;
+            padding: 50px 25px 50px 35px;
+
+            & h3 {
+                font-size: 30px;
+                margin-bottom: 35px;
+            }
+        }
+
+        & .content {
+            height: 200px;
+            display: flex;
+            align-items: center;
+
+            & h3 {
+                font-size: 30px;
+            }
+
+            & p {
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+            
+    }
+
+    &__join {
+        margin-top: 100px;
+        & h2 {
+            font-size: 60px;
+        }
+
+        & .text {
+            & h3 {
+                font-size: 30px;
+            }
+
+            & p {
+                font-size: 16px;
+                line-height: 35px;
+            }
+
+            & a {
+                width: 30%;
+            }
+        }
+    }
+
+    &__contact {
+        & h2 {
+            font-size: 60px;
+        }
+    }
+
+}

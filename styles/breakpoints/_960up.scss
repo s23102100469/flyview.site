@@ -1,0 +1,132 @@
+.header {
+    &__ul {
+        padding: initial;
+        position: initial;
+        width: initial;
+        height: initial;
+        background-color: initial;
+        opacity: initial;
+        transform: initial;
+        display: flex;
+        align-items: center;
+
+        & li {
+            margin-bottom: 0;
+            margin-right: 25px;
+
+        }
+    }
+
+    &__button {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+.main {
+    & #vegas {
+        height: 100vh;
+    }
+
+    &__text {
+        top: 30vh;
+        left: 40px;
+        width: 80%;
+
+        & .title {
+            font-size: 60px;
+        }
+
+    }
+
+    & .sub-text {
+        & h2 {
+            font-size: 25px;
+        }
+
+        & p {
+            font-size: 18px;
+            line-height: 40px;
+        }
+    }
+
+    &__anywhere {
+
+        & .img {
+            height: 700px;
+            width: 80%;
+        }
+        & .text {
+            & .tx01 {
+                font-size: 30px;
+            }
+
+            & .sub-text {
+                & h2 {
+                    font-size: 60px;
+                }
+
+                & .tx02 {
+                    font-size: 27px;
+                    padding: 8px 15px;
+                }
+
+                & .tx03 {
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+
+    &__business {
+        & h2 {
+            & span {
+                font-size: 70px;
+            }
+        }
+    }
+
+    &__join {
+        & .content {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        & .img {
+            width: 45%;
+        }
+
+        & .text {
+            width: 45%;
+             
+            & h3 {
+                margin-top: 0;
+            }
+        }
+    }
+
+    &__contact {
+
+        & .text {
+            display: flex;
+            align-items: center;
+
+            & p {
+                width: 45%;
+            }
+
+            & a {
+                width: 40%;
+            }
+        }
+    }
+}

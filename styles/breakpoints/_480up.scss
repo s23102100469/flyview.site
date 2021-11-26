@@ -1,0 +1,57 @@
+.main {
+    &__text {
+
+        & .title {
+            font-size: 45px;
+        }
+    
+        & .sub-text {
+    
+            & h2 {
+                font-size: 23px;
+            }
+    
+            & p {
+                width: 70%;
+                font-size: 15px;
+            }
+        }
+    }
+
+    &__anywhere {
+        & .sub-text {
+            & .tx03 {
+                width: 90%;
+            }
+        }
+    }
+
+    &__business {
+        margin-top: 160px;
+
+        & .content {
+            width: 50%;
+            margin-left: 30px;
+
+        }
+
+        & .plan {
+            width: 50%;
+            margin-right: 30px;
+        }
+    }
+
+    &__join {
+        & .text {
+            & a {
+                width: 40%;
+            }
+        }
+    }
+
+    &__contact {
+        & .text {
+            width: 85%;
+        }
+    }
+}

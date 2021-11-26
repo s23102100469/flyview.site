@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 10;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
+}
+
+.header__title h1 {
+  margin: 0;
+  font-size: 25px;
+  color: white;
+}
+
+.header__title p {
+  margin: 0;
+  font-size: 13px;
+  color: white;
+}
+
+.header__ul {
+  display: block;
+  margin: 0;
+  padding: 30vh 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1919;
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  z-index: -1;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.header__ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 23px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.header__ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__button {
+  width: 30px;
+}
+
+.header__button span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.header__button span:nth-child(1) {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.header__button span:nth-child(2) {
+  margin-bottom: 6px;
+}
+
+.header__button span:nth-child(3) {
+  margin-bottom: 15px;
+}
+
+.header.active .header__button {
+  position: relative;
+  z-index: 2;
+}
+
+.header.active .header__button span:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(135deg);
+          transform: translateY(8px) rotate(135deg);
+}
+
+.header.active .header__button span:nth-child(2) {
+  opacity: 0;
+}
+
+.header.active .header__button span:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-135deg);
+          transform: translateY(-8px) rotate(-135deg);
+}
+
+.header.active .header__ul {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  z-index: 1;
+}
+
+.black {
+  background-color: #1a1919;
+}
+
+.main {
+  position: relative;
+  z-index: -1;
+}
+
+.main #vegas {
+  width: 100vw;
+  height: 90vh;
+}
+
+.main__text {
+  position: absolute;
+  top: 45%;
+  left: 15px;
+}
+
+.main__text .title {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+/*# sourceMappingURL=base.css.map */
